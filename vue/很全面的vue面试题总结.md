@@ -66,8 +66,8 @@ https://www.cnblogs.com/attacking-cabbage/p/10260393.html
 
   根据官方文档介绍，v-model本质上就是语法糖，即利用v-model绑定数据后，其实就是既绑定了数据，又添加了一个input事件监听，如下：
 
+![](../assets/v-model.png)
 
-![](https://user-gold-cdn.xitu.io/2019/3/24/169add9406ddff6d?w=800&h=546&f=png&s=103570)
 ### 怎样理解单向数据流
 这个概念出现在组件通信。父组件是通过 prop 把数据传递到子组件的，但是这个 prop 只能由父组件修改，子组件不能修改，否则会报错。子组件想修改时，只能通过 $emit 派发一个自定义事件，父组件接收到后，由父组件修改。
 一般来说，对于子组件想要更改父组件状态的场景，可以有两种方案：
@@ -109,7 +109,7 @@ export default {
 
     当data变化时，会触发beforeUpdate和updated方法。这两个不常用，不推荐使用。
 - 销毁前后beforeDestory/destoryed 
-    
+  
     beforeDestory是在vue实例销毁前触发，一般在这里要通过removeEventListener解除手动绑定的事件。实例销毁后，触发的destroyed。
 ### 组件间的通信
 1. 父子 `props`/`event`   `$parent`/`$children`    `ref`   `provide`/`inject`
@@ -137,7 +137,7 @@ Vue.nextTick(function () {
 ## vue的原理
 https://segmentfault.com/a/1190000016434836
 
-![](https://user-gold-cdn.xitu.io/2019/3/29/169c96c260d66315?w=1200&h=750&f=png&s=83500)
+![](../assets/vue原理.png)
 Vue的模式是m-v-vm模式，即（`model-view-modelView`），通过modelView作为中间层（即vm的实例），进行双向数据的绑定与变化。
 1. 通过建立虚拟dom树`document.createDocumentFragment()`,方法创建虚拟dom树。
 2. 一旦被监测的数据改变，会通过`Object.defineProperty`定义的数据拦截，截取到数据的变化。

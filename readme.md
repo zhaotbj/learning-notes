@@ -1,4 +1,9 @@
 ## Web 前端笔记
+
+[知乎](https://www.zhihu.com/people/zhao-tian-24-34/activities)
+[掘金](https://juejin.im/user/5c2319a9f265da61117a578f)
+[思否](https://segmentfault.com/u/tiantudou)
+
 - Vue
 - React
 - Node
@@ -6,10 +11,7 @@
 
 ## 目录如下
 
-* [Introduction](README.md)
 * [vue](vue/很全面的vue面试题总结.md)
-
-
 
 ---
 
