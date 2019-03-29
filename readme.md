@@ -22,4 +22,4 @@ npm run dev
 ```
 	> browser sync是全局包(同时这也是一个服务器的包)在项目中安装browser sync浏览区自动刷新的包，
 	> 命令是：`npm browser-sync  --save-dev `
-
+assssssssssssssssssssssssssssssssss
