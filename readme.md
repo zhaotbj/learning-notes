@@ -17,6 +17,7 @@
 ## 目录如下
 
 * [很全面的vue面试题总结](vue/很全面的vue面试题总结.md)
+* [node常用的api](node/node常用的api.md)
 
 ---
 
