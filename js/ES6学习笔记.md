@@ -8,7 +8,7 @@
   Set&Map
   类 class
 ```
-### 块级作用域
+## 块级作用域
   - var 可以重复定义、不能限制修改、没有块级作用域
   - let 不能重复定义， 变量，块级作用域
   - const 不能重复定义， 常量，块级作用域
@@ -19,7 +19,7 @@ let不允许在相同作用域内，重复声明同一个变量； 变量不提�
 const 的变量不可以被修改，也不能重复申明
 使用const的对象可以修改，因为const内部是依靠指针来判断一个对象是否被修改
 ```
-### 数组
+## 数组
 
 ##### 数组实例的 find() 和 findIndex()
  数组实例的find方法，用于找出第一个符合条件的数组成员。它的参数是一个回调函数，
@@ -118,8 +118,8 @@ for(let i of a.entries()) {
 // [ 1, 'b' ]
 // [ 2, 'c' ]
 ```
-### 函数
-##### 参数的默认值
+## 函数
+#### 参数的默认值
 ```javascript
 // 参数的默认值
 // 如果在参数重使用了默认值，那么就不能再方法体内再使用let关键字申明同名的变量
@@ -196,8 +196,8 @@ person.greet()
 // 这段代码在浏览器中运行时this是Windows
 // 不建议在构造函数中使用箭头函数
 ```
-### Set&Map
-##### Set 和 WeakSet
+## Set&Map
+####  Set 和 WeakSet
 Set 的实现类似于数组，和普通数组的不同在于Set中不能包含重复的数据
 
 weakSet和set的区别在于weakset的成员只能是对象， weak是虚弱的意思，表示weakset中存储的对象没有被其他对象所引用，其内存空间就会被回收。
@@ -258,7 +258,7 @@ for(let key of map.keys()) {
 // b
 // { c: 3 }]
 ```
-### 对象
+## 对象
 - 新的方法object.assign() 
 
 该方法将一个对象的属复制到另一个对象上， ==浅拷贝==。
@@ -285,8 +285,8 @@ for(var key in obj) {
 //  2.object.keys() 遍历
 console.log(Object.keys(obj)) // [ 'name', 'age', 'sex' ]
 ```
-### 类 class
-##### ES5
+## 类 class
+####  ES5
 ```javascript
 // ES5
 // 在js中，类的所有实例对象都从同一个原型对象上继承属性
@@ -301,7 +301,7 @@ var person =new Person('man', '10')
 console.log(person.getInfo()) // man,10
  */
 ```
-##### ES6 语法糖
+####  ES6 语法糖
 ```javascript
 // ES6 语法糖
 class Person {
@@ -316,7 +316,7 @@ class Person {
 var person=new Person('female', '20')
 console.log(person.getInfo()) // female,20
 ```
-##### 属性和构造函数
+####  属性和构造函数
 ```javascript
 //  属性和构造函数
 // class中的属性定义在constructor函数（构造函数）中，构造函数负责类的初始化，
@@ -332,7 +332,7 @@ class Student{
   }
 }
 ```
-##### 类方法
+####  类方法
 ```javascript
 // 类方法
 class Student{
@@ -359,7 +359,7 @@ class Student{
   
 }
 ```
-##### __proto__
+####  __proto__
 
 ES5中，类的实现通过__proto__属性来指向构造函数的prototype对象
 es6中，==getinfo方法和constructor方法虽然看似是定义在类的内部，但实际上还是定义在prototype上，
@@ -370,7 +370,7 @@ es6中，==getinfo方法和constructor方法虽然看似是定义在类的内部
 
 类的本质是构造函数
 
-##### 静态方法
+####  静态方法
 在定义类时如果定义了方法,那么该类的每个实例在初始化时都会有一份该方法的备份。有时候我们不希望一些方法被继承,而是希望作为父类的属性来使用,可以直接通过调用类名调用的方法,即静态方法。
 
 es6中使用static关键字来声明一个静态方法，该方法只能通过类名来直接调用，而不能通过类的实例调用。
@@ -398,7 +398,7 @@ class Student extends Person{
 }
 console.log(Student.getName2()) // lear, Hi
 ```
-#### 类的继承
+####  类的继承
 - ES6中的继承
 ```javascript
 class Person {
