@@ -10,16 +10,23 @@
 - **QQ** 975619483
 
 - Vue
-- React
+- JS/ES6
 - Node
 - ES6
-
+- 面试题
 ## 目录如下
+- Vue
+  * 
 
-* [很全面的vue面试题总结](vue/很全面的vue面试题总结.md)
-* [node常用的api](node/node常用的api.md)
-* [ES6学习笔记](js/ES6学习笔记.md)
-* [书写异步代码-Promise&Generator](js/promise&generator.md)
+- JS/ES6
+  * [ES6学习笔记](js/ES6学习笔记.md)
+  * [书写异步代码-Promise&Generator](js/promise&generator.md)
+
+- Node.js
+  * [node常用的api](node/node常用的api.md)
+
+- 面试题
+  * [很全面的vue面试题总结](vue/很全面的vue面试题总结.md)
 ---
 
 
