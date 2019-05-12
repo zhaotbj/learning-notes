@@ -17,7 +17,7 @@
   * [node常用的api](node/node常用的api.md)
 
 - 面试题汇总
-  * [很全面的vue面试题总结](vue/很全面的vue面试题总结.md)
+  * [很全面的vue面试题总结](vue/vue面试题总结.md)
   * [微信小程序面试题](weichat/微信小程序面试题.md)
 ---
 
