@@ -22,8 +22,6 @@
 
 <h2 align="center">慕课网前端跳槽面试必备技巧</h2>
 
-* [2019-4/三栏布局的五种解决方案及优缺点](interview/muke/三栏布局的五种解决方案及优缺点.md)
-* [2019-4/理解CSS盒模型](interview/muke/理解CSS盒模型.md)
 
 * [2019年4月 » 三栏布局的五种解决方案及优缺点](interview/muke/三栏布局的五种解决方案及优缺点.md)
 * [2019年4月 » 理解CSS盒模型](interview/muke/理解CSS盒模型.md)
