@@ -16,6 +16,7 @@
     - form表单
 - 微信小程序
   * [微信小程序面试题](weichat/微信小程序面试题.md)
+  * [小程序使用canvas自适应屏幕画海报并保存图片](weichat/小程序使用canvas自适应屏幕画海报并保存图片.md)
 - JS/ES6
   * [ES6学习笔记](js/ES6学习笔记.md)
   * [书写异步代码-Promise&Generator](js/promise&generator.md)
