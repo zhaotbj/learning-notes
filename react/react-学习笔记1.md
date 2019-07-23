@@ -155,7 +155,6 @@ export default Vmode;
 	  <br />
 	  <input type="submit" value="提交" />
 	</form>
-		
 ```
 # React组件通信的几种方式
 
@@ -234,7 +233,6 @@ class Child extends Component {
      );
   }
 }
- 
 export default Child;
 ```
 ### props验证
