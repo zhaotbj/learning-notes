@@ -49,7 +49,6 @@ list2:[<h2 key='1'>我是一个h2</h2>,<h2 key='2'>我是一个h2</h2>],
 		return <li key={index}>{item.title}</li>
 	  })
     }
-		
 ```
 # react绑定事件改变this指向的三种方式， 事件传值
 - 直接值函数后面加bind(this, 传参) 
