@@ -27,8 +27,7 @@ import logo from '../assets/images/1.jpg';
 ```html
 <img src="https://www.baidu.com/img/xinshouye_353af22a7f305e1fb6cfa259394dea9b.png" />
 ```
-
-                
+          
 # 循环数据的两种方式
 
 ```
