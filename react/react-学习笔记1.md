@@ -287,7 +287,6 @@ shouldComponentUpdate、componentWillUpdate、render、componentDidUpdate
 ```html
 <Route path="/content/:aid" component={Content} /> 
 
-
  <Link to={`/content/${value.aid}`}>{value.title}</Link>
 
 // 在Content 组件componentDidMount()中获取值  this.props.match.params 
