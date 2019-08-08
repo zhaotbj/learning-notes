@@ -87,6 +87,8 @@ this.setState({
 # 键盘事件
 
 
+
+
 # 实现vue-v-modle双向数据绑定
  model改变影响View    view改变反过来影响model
  ```javascript
