@@ -8,12 +8,9 @@
 - Vue
   * [vue面试题总结](vue/vue面试题总结.md)
 - React
-  * [react-学习笔记1](react/react/react-学习笔记1.md)
-    - 绑定样式
-    - 循环数据
-    - 绑定事件
-    - 实现类似vue双向数据绑定
-    - form表单
+  * [react-学习笔记1](react/react-学习笔记1.md)
+  * [React中的组件通信几种方式](react/React中的组件通信几种方式.md)
+  * [redux介绍及使用redux制作TODOLIST](react/redux介绍及使用redux制作TODOLIST.md)
 - 微信小程序
   * [微信小程序面试题](weichat/微信小程序面试题.md)
   * [小程序使用canvas自适应屏幕画海报并保存图片](weichat/小程序使用canvas自适应屏幕画海报并保存图片.md)
