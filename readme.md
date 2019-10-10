@@ -21,6 +21,7 @@
 - JS/ES6
   * [ES6学习笔记](js/ES6学习笔记.md)
   * [书写异步代码-Promise&Generator](js/promise&generator.md)
+  * [《编写可维护的JavaScript》读书笔记](js/《编写可维护的JavaScript》读书笔记.md)
 
 - Node.js
   * [node常用的api](node/node常用的api.md)
