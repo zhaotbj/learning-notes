@@ -8,6 +8,9 @@
 - Vue
   * [vue面试题总结](vue/vue面试题总结.md)
 - React
+  * [深入浅出react和redux笔记](react/深入浅出react和redux笔记.md)
+  * [react路由](react/react路由.md)
+  * [react面试题](react/react面试题.md)
   * [react-学习笔记1](react/react-学习笔记1.md)
   * [React中的组件通信几种方式](react/React中的组件通信几种方式.md)
   * [redux介绍及使用redux制作TODOLIST](react/redux介绍及使用redux制作TODOLIST.md)
