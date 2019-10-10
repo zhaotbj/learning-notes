@@ -6,6 +6,7 @@
 - **QQ** 975619483
 ## 目录如下
 - Vue
+  * [vue响应式原理解析](vue/vue响应式原理解析.md)
   * [vue面试题总结](vue/vue面试题总结.md)
 - React
   * [深入浅出react和redux笔记](react/深入浅出react和redux笔记.md)
