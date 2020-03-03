@@ -11,15 +11,17 @@
 盒模型的组成大家肯定都懂，由里向外content,padding,border,margin。
 盒模型是有两种标准的，一个是标准模型，一个是IE模型。
 
-![](../assets/model.png)
-![](../assets/IEmodel.png)
+![](./assets/model.png)
+![](./assets/IEmodel.png)
 标准模型和IE模型的区别
+
 - 计算高度和宽度的不同
 盒模型的宽高只是内容（content）的宽高，
 而在IE模型中盒模型的宽高是内容(content)+填充(padding)+边框(border)的总宽高。
 ### css 盒模型
 css 如何设置这两种模型
 css3的box-sizing属性
+
 ```css
 	box-sizing: content-box; 浏览器默认 标准模型
 	box-sizing: border-box; IE模型
@@ -40,7 +42,7 @@ css3的box-sizing属性
 
 ### 实例题 根据盒模型解决边距重叠
 
-![](../assets/margin.png)
+![](./assets/margin.png)
 
 子元素100px高度 设置margin-top:10px; 这时父元素的实际高度是？
 100和110都对，要看盒模型
