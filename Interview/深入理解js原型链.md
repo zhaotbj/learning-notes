@@ -20,7 +20,7 @@
     var p={name: 'p'};
     var o4=Object.create(p);
 ```
-![](../assets/proto-1.png)
+![](./assets/proto-1.png)
 
 - 构造函数和实例的关系
 使用new 运算符的就是构造函数。
@@ -39,7 +39,7 @@ M.prototype.constructor===M  // true
 
 - 原型对象和构造函数的关系
 
-![](../assets/proto-2.png)
+![](./assets/proto-2.png)
 
 
 ```javascript
@@ -90,7 +90,7 @@ object.prototype是原型链的顶端，到那就截止了。
 
 ### instanceof的原理
 
-![](../assets/instanceOf.png)
+![](./assets/instanceOf.png)
 
 
 
@@ -110,7 +110,7 @@ M.prototype.__proto__===Object.prototype // true
 o3.__proto__.constructor===M // true
 ```
 
-![](../assets/proto-3.png)
+![](./assets/proto-3.png)
 
 `__proto__ `引用的是构造函数的原型对象
 
@@ -142,4 +142,4 @@ o3.__proto__.constructor===M // true
 ```
 
 
-![](../assets/newobject.png)
+![](./assets/newobject.png)
