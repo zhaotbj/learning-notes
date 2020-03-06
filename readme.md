@@ -41,8 +41,6 @@
 * [2019年6月 » 详谈js的类和继承](interview/详谈js的类和继承.md)
 * [2019年6月 » 通信类与安全类](interview/通信类与安全类.md)
 
-
-
 - webpack
   * [2019年7月 » webpack配置及使用webpack优化项目实战](webpack/webpack配置及使用webpack优化项目实战.md)
 
