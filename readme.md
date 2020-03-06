@@ -33,13 +33,13 @@
 <h2 align="center">慕课网前端跳槽面试必备技巧</h2>
 
 
-* [2019年4月 » 三栏布局的五种解决方案及优缺点](interview/三栏布局的五种解决方案及优缺点.md)
-* [2019年4月 » 深入理解CSS盒模型](interview/深入理解CSS盒模型.md)
-* [2019年5月 » DOM事件机制](interview/DOM事件机制.md)
-* [2019年5月 » http协议类](interview/http协议类.md)
-* [2019年5月 » 深入理解js原型链](interview/深入理解js原型链.md)
-* [2019年6月 » 详谈js的类和继承](interview/详谈js的类和继承.md)
-* [2019年6月 » 通信类与安全类](interview/通信类与安全类.md)
+* [2019年4月 » 三栏布局的五种解决方案及优缺点](Interview/三栏布局的五种解决方案及优缺点.md)
+* [2019年4月 » 深入理解CSS盒模型](Interview/深入理解CSS盒模型.md)
+* [2019年5月 » DOM事件机制](Interview/DOM事件机制.md)
+* [2019年5月 » http协议类](Interview/http协议类.md)
+* [2019年5月 » 深入理解js原型链](Interview/深入理解js原型链.md)
+* [2019年6月 » 详谈js的类和继承](Interview/详谈js的类和继承.md)
+* [2019年6月 » 通信类与安全类](Interview/通信类与安全类.md)
 
 - webpack
   * [2019年7月 » webpack配置及使用webpack优化项目实战](webpack/webpack配置及使用webpack优化项目实战.md)
