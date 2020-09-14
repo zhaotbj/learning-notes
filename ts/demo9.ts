@@ -18,5 +18,6 @@ const getResume = (girl1: Girl)=>{
     console.log(girl1.name+"胸围是："+ girl1.bust)
     console.log(girl1.name+"腰围是："+ girl1.waistline)
     console.log(girl1.name+"性别是："+ girl1.sex)
+    
 }
 getResume(girl1)
