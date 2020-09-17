@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="./dist/DataHelper.js"></script>
+
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="v in list" :key="v.id">{{v.content}}
+                <span style="margin-left: 50px;" v-on:click="handleDelete(v.id)">删除</span>
+            </li>
+        </ul>
+        <textarea rows="5" cols="5"v-model="content" style="width:600px;height:200px" ></textarea>
+        <input type="button" value="发布" v-on:click="submit">
+    </div>
+    <script>
+        new Vue({
+            el: "#app",
+            data() {
+                return {
+                    text:"hello",
+                    content:"",
+                    list:[],
+                    db:null,
+                }
+            },
+            created(){
+                this.db = new DataHelper('plData',"id")
+                this.init()
+            },
+            methods: {
+                init(){
+                    this.list = this.db.readData()
+                },
+                submit(){
+                    console.log('发布')
+                    let newId = this.db.addData(this.content)
+                    this.content= ''
+                    this.init()
+                },
+                handleDelete(id){
+                    console.log("删除的id", id)
+                    this.db.removeDataById(id)
+                    this.init()
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
