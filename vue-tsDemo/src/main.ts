@@ -1,15 +1,16 @@
 import Vue from 'vue'
 import App from './App.vue'
-import ItemData from './model/ItemData';
-import Category from './model/CateEnum';
-import store from './store';
+import router from './router'
+import store from './store'
 
 Vue.config.productionTip = false
 
+// 配置element-ui组件库
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
 new Vue({
-  render: (h: any) => h(App),
+  router,
   store,
-}).$mount('#app');
-//测试
-let item1 =new ItemData(1,Category.Life,'333333333','334343225')
-console.log(item1);
+  render: h => h(App)
+}).$mount('#app')

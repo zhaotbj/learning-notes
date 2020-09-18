@@ -1,5 +1,5 @@
 <template>
-  <!-- 菜单栏 -->
+    <!-- 菜单栏 -->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -72,32 +72,22 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-import ItemData from "../model/ItemData";
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class MenuBar extends Vue {
-  showAdd() {
-    console.log(1,this.$store)
-    this.$store.state.transMemo = new ItemData(-1, 0);
-    this.$store.state.isShow = true;
-  }
+  showAdd(){
 
-  doFilter(cid: number): number {
-    if (cid == -1) {
-      return this.$store.state.aHelper.memoList.length;
-    } else {
-      return this.$store.state.aHelper.memoList.filter((ele: any) => {
-        return ele.categoryId == cid;
-      }).length;
-    }
   }
+ private doFilter(value: number): number{
+    return -1
+  }
+  doFilterByCateId(){
 
-  doFilterByCateId(cid: number): void {
-    this.$store.state.filterCateId = cid;
   }
 }
 </script>
+
 <style scoped>
 .navbar-brand > img {
   display: inline-block;

@@ -1,25 +1,38 @@
 <template>
   <div id="app">
-    <MenuBar></MenuBar>
-     <ItemList />
-    <MemoEditor v-if="$store.state.isShow" />
+    <MenuBar />
   </div>
 </template>
-
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import  MenuBar  from './components/MenuBar.vue';
-import ItemList from "./components/ItemList.vue";
-import MemoEditor from "./components/MemoEditor.vue";
+import MenuBar from './components/MenuBar.vue'
+import ItemData from './model/ItemData'
+import ActionHelper from './store/ActionHelper'
+import CateEnum from './model/CateEnum'
+
+
 @Component({
-  components: {
-    MenuBar,ItemList,MemoEditor
+  components:{
+    MenuBar
   }
 })
 export default class App extends Vue {
-  @Prop() private msg!: string;
+
 }
+
+let ol = new ActionHelper()
+
+let newItem = new ItemData(5, CateEnum.Life, '我是标题修改5', "我是内容")
+console.log(newItem)
+// 测试新增
+// newItem.id = ol.add(newItem)
+// 测试修改
+// ol.edit(newItem)
+// 测试删除
+// ol.remove(5)
+console.log("memoList",ol.memoList)
 </script>
+
 
 <style>
 #app {
@@ -28,6 +41,5 @@ export default class App extends Vue {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
