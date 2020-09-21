@@ -1,6 +1,5 @@
 import DataHelper from './DataHelper'
 import ItemData from '../model/ItemData';
-import CateEnum from '@/model/CateEnum';
 
 class ActionHelper {
     dataHelper: DataHelper = new DataHelper('memoData', "id");
@@ -43,6 +42,7 @@ class ActionHelper {
             this.dataHelper.saveData(this.memoList)
         }
     }
+    // 删除笔记
     remove(id: number): void {
         let index:number = this.memoList.findIndex((ele)=>{
             return ele.id == id
@@ -51,6 +51,11 @@ class ActionHelper {
             this.memoList.splice(index, 1)
             this.dataHelper.saveData(this.memoList)
         }
+    }
+    // 类型
+    getCategoryName(id:number):string {
+        let arr = ['工作','生活','生活']
+        return arr[id]
     }
 }
 export default ActionHelper

@@ -5,7 +5,6 @@ class DataHelper{
       this.dataKey = dataKey
       this.primaryKey = primaryKey
   }
-
   readData():any{
       // 读取本地数据
       let strData:string | null = localStorage.getItem(this.dataKey)
@@ -15,12 +14,12 @@ class DataHelper{
       }
       return arrData
   }
-
+    //  保存
   saveData(arrData:Array<Object>):void{
       let str:string = JSON.stringify(arrData)
       localStorage.setItem(this.dataKey, str)
   }
-
+    // 新增   
   addData(obj: any): number{
       let arr: any = this.readData()
         if(arr === null) {
@@ -32,6 +31,7 @@ class DataHelper{
       this.saveData(arr)
       return newId
   }
+  // 移除
   removeDataById(id:string | number):boolean{
       let arr = this.readData()
       let index= arr.findIndex((ele)=>{
