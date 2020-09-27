@@ -12,6 +12,7 @@
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "koa-ejs": "^4.3.0",
-    "koa-router": "^9.4.0"
+    "koa-router": "^9.4.0",
+    "koa-static": "^5.0.0"
   }
 }
