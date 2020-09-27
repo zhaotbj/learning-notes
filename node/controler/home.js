@@ -4,7 +4,7 @@ module.exports = {
         let end = new Date().getTime()
         ctx.response.type = 'text/html'
         ctx.response.body = `<h1>Hello World${end - stime}ms</h1>`
-        console.log('响应时间', `${end - stime}ms`)
+        // console.log('响应时间', `${end - stime}ms`)
         await ctx.render("index", {
           title: 'iKcamp欢迎您',
           time: '响应时间'+ `${end - stime}ms`
